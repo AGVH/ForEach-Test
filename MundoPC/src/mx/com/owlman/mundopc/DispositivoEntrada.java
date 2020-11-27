@@ -1,5 +1,5 @@
 
-package mx.com.gm.mundopc;
+package mx.com.owlman.mundopc;
 
 /**
  *

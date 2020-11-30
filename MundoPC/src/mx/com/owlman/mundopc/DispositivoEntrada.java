@@ -1,5 +1,5 @@
 
-package mx.com.owlman.mundopc;
+package mx.com.owlman.mundopc;//Esta clase solo sirve para modelar
 
 /**
  *

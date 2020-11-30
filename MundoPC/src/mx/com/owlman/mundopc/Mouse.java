@@ -10,8 +10,8 @@ package mx.com.owlman.mundopc;
  * @author vhag9
  */
 public class Mouse extends DispositivoEntrada{
-    private final int idMouse;
-    private static int contadorMice;
+    private final int idMouse;//constante
+    private static int contadorMice;//
     
     public Mouse(String tipoEntrada, String marca) {
         super(tipoEntrada, marca);
@@ -22,7 +22,7 @@ public class Mouse extends DispositivoEntrada{
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Mouse{idMouse=").append(idMouse);
-        sb.append(" | ").append(super.toString()).append(" | ");
+        sb.append(" | ").append(super.toString()).append(" | ");//se usa super para mostrar los datos de la clase padre
         sb.append('}');
         
         return sb.toString();
